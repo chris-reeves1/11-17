@@ -37,3 +37,6 @@ jobs:
 
       - name: run ls
         run: ls -al
+
+      - name: change permissions and run script
+        run: chmod +x script.sh && sh script.sh
